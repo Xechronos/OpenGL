@@ -104,6 +104,15 @@
     <ClCompile Include="Audio\AudioChannel.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\ThirdParty\glad\src\glad.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\Random.h">
@@ -222,6 +231,12 @@
     </ClInclude>
     <ClInclude Include="Audio\AudioChannel.h">
       <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
